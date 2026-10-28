@@ -1,3 +1,18 @@
+# Voluntas engineering challenge: Polymarket order book collector
+
+**Solution write-up: [SOLUTION.md](SOLUTION.md)** (architecture, extensions 1–3,
+test results). **Latency experiments (extension 4): [LATENCY.md](LATENCY.md).**
+
+```sh
+cargo build --release
+./target/release/engineering-challenge > out.sbe   # Ctrl-C to stop
+./target/release/inspect out.sbe
+```
+
+The original template README follows.
+
+---
+
 # Read before getting started!!
 
 First, read [src/main.rs](https://github.com/voluntas-io/engineering-challenge/blob/main/src/main.rs). Then, some background on this repo:
